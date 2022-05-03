@@ -2,14 +2,15 @@
   "name": "py-in-html",
   "version": "1.0.0",
   "scripts": {
-    "start": "cd src;python3.9 -m http.server"
+    "start": "cd src;python3.9 -m http.server",
+    "test": "echo \"no tests at the moment\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnb8005/py-in-html.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Johan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnb8005/py-in-html/issues"
   },

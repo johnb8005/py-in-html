@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="boilerplate for snowpack and bootstrap" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Python in HTML</title>
+  </head>
+  <body>
+    <py-env> - matplotlib </py-env>
+    <div id="mpl"></div>
+    <py-script src="./script.py" output="mpl"></py-script>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+  </body>
+</html>

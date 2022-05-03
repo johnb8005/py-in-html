@@ -15,11 +15,14 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
-    <title>Boilerplate</title>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Python in HTML</title>
   </head>
   <body>
+    <py-env> - matplotlib </py-env>
+    <div id="mpl"></div>
+    <py-script src="./script.py" output="mpl"></py-script>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script type="module" src="%SNOWPACK_PUBLIC_URL%/index.js"></script>
   </body>
 </html>

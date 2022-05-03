@@ -10,6 +10,7 @@ _requires python installed_
 yarn start
 ```
 
-## R3esources
+## Resources
 
+- https://towardsdatascience.com/pyscript-unleash-the-power-of-python-in-your-browser-6e0123c6dc3f
 - https://pyscript.net/examples/matplotlib.html

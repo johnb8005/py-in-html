@@ -15,7 +15,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: yarn
       - run: yarn test
       - name: Build page
         run: cp -r src build

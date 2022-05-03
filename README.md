@@ -4,6 +4,12 @@
 
 ## Start server
 
+_requires python installed_
+
 ```
-python3.9 -m http.server
+yarn start
 ```
+
+## R3esources
+
+- https://pyscript.net/examples/matplotlib.html
